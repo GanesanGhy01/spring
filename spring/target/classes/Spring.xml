@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<bean id="alien" class="com.maven.spring.spring.Alien" autowire="byName">
+		<!--<property name="com" ref="desktop"></property>-->
+	</bean>
+	
+	<bean id="" class="com.maven.spring.spring.Laptop"></bean>
+	<bean id="com" class="com.maven.spring.spring.Desktop"></bean>
+</beans>
